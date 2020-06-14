@@ -49,3 +49,8 @@ print(fruits)
 fruits.sort(reverse=True)
 print(fruits)
 # > ['uva', 'tomate', 'abacaxi', 'abacate']
+
+# change value
+fruits[2] = 'xicara'
+print(fruits)
+# > ['uva', 'tomate', 'xicara', 'abacate']

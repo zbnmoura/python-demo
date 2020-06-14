@@ -41,6 +41,12 @@ fruits_set.add('uva')
 print(fruits_set)
 # > {'tomate', 'uva', 'manga', 'banana'}
 
+# add duplicate
+fruits_set.add('uva')
+print(fruits_set)
+# ? if already exists will not duplicate ?
+# > {'tomate', 'uva', 'manga', 'banana'}
+
 # remove from set
 fruits_set.remove('uva')
 print(fruits_set)

@@ -26,7 +26,6 @@ print(len(fruits))
 # > 3
 
 
-
 # A Set is a collection which is unordered and unindexed. No duplicate members.
 
 # create a set
